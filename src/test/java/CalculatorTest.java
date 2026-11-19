@@ -11,4 +11,12 @@ public class CalculatorTest {
 
         assertEquals(expectedResult, actualResult);
     }
+
+    @Test
+    void testSubstrction(){
+        int actualResult = 10 - 5;
+        int expectedResult = 5;
+
+        assertEquals(expectedResult, actualResult);
+    }
 }
